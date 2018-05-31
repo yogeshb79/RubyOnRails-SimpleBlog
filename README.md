@@ -1,24 +1,14 @@
-# README
+# Simple Blog 
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a sample blog application created using  Ruby on Rails
 
-Things you may want to cover:
+Code for the Simple project from youtube url
 
-* Ruby version
+https://www.youtube.com/watch?v=pPy0GQJLZUM&t=2116s
 
-* System dependencies
+Software Prerequisite :
 
-* Configuration
+Rails 5.0.7 
+ruby 2.2.6p396 (2016-11-15 revision 56800) [i386-mingw32] 
+Bootstrap -v 4.1.1
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
