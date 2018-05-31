@@ -1,0 +1,14 @@
+<h3>comments</h3>
+<% @post.comment.each do |c| %>
+<div class="row">
+    <div class="col-sm-12 my-2">
+            <div class="card card-body bg-light">
+                <strong><%= c.username %></strong><%= c.body %>
+                <%= link_to  "X", post_path(c.post),
+                        method: :delete,
+                        data:{ confirm: 'Are you sure ?' }
+                         %>
+            </div>
+        </div>
+    </div>
+<% end %>
